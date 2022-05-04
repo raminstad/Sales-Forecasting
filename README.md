@@ -34,10 +34,18 @@
 data frame ('2010-12-01' : '2011-12-09'), after doing such an operation I found that out of 4070 distinct products only 566 of them had the same date range. I decided to check every one of them and count the number of non-zero sales for every day in them, and take the top 20 products with the least amount of zero sales.
 
 # Model Building
-Train Date Range: ('2010-12-01' : '2011-09-30') 
-Test Date Range: ('2011-10-01' : '2011-12-09')
+* Train Date Range: ('2010-12-01' : '2011-09-30') 
+* Test Date Range: ('2011-10-01' : '2011-12-09')
+* Used prophet and auto arima and compared their mean square errors.
 
+![Screen Shot 2022-05-03 at 11 28 23 PM (3)](https://user-images.githubusercontent.com/79353291/166632249-6075b98d-4854-4749-af2d-20e94066b4c4.png)
 
+* Visualize train,test, prophet and auto-arima forecasts.
+![Screen Shot 2022-05-03 at 11 29 22 PM (3)](https://user-images.githubusercontent.com/79353291/166632430-1e24f49d-1c84-468b-b896-528ea13f6224.png)
+
+* Pickled only the prophet models and loaded back them again and used built in plot methods on the prophet models.
+
+![Screen Shot 2022-05-03 at 11 32 18 PM (3)](https://user-images.githubusercontent.com/79353291/166632593-27aca2d4-b7dc-48d7-a3b3-86f43ea2c256.png)
 
 
 
