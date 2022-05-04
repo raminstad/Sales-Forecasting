@@ -1,6 +1,1 @@
-# Time-Series-Analysis----Fbprophet
-# Time-Series-Analysis----Fbprophet
-# Sales-Forecasting
-# Sales-Forecasting
-# Sales-Forecasting
-# Sales-Forecasting
+# Time-Series-Analysis----Fbprophet and Auto-Arima
