@@ -27,4 +27,4 @@
 
 
 * I imputed the missing dates by grouping them by dates and unique products and then used resample function in pandas and it imputed the missing dates for all the products and set it to zero.
-! [Screen Shot 2022-05-03 at 11 15 01 PM (3)](https://user-images.githubusercontent.com/79353291/166631114-0b8b53ad-2c86-408d-8653-3025c10fc061.png)
+![Screen Shot 2022-05-03 at 11 15 01 PM (3)](https://user-images.githubusercontent.com/79353291/166631114-0b8b53ad-2c86-408d-8653-3025c10fc061.png)
