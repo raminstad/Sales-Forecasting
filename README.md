@@ -1,4 +1,5 @@
 # Time-Series-Analysis----Fbprophet and Auto-Arima
+* [Notebook for this project](https://github.com/raminstad/Sales-Forecasting/blob/main/FORECAST.ipynb)
 # Analysis Objectives
 * Perform daily time series analysis on the sales of 20 ditinct product.
 * This dataset had more than 4000 unique products and I didn't have the computing power to perform this analysis on all of them.
